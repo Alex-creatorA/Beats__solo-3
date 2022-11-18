@@ -1,5 +1,6 @@
 .hero {
-  background: url("/img/almond.png") left 78% center no-repeat;
+  background: url("/") left 78% center no-repeat;
+  background: $gray;
   min-height: 650px;
   height: 100vh;
   color: $black;
