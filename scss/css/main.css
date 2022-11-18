@@ -1,5 +1,6 @@
 .hero {
-  background: url("/img/main-3.png") left 78% center no-repeat;
+  background: url("../../img/Ellipse 5.png") left 78% center no-repeat;
+  background-color: #666666;
   min-height: 650px;
   height: 100vh;
   color: #292929;
