@@ -2,8 +2,14 @@
   background: url("../../img/Ellipse\ 5.png") left 78% center no-repeat;
   background-color: $gray;
   min-height: 650px;
+  
   height: 100vh;
   color: $black;
+  padding: 24px 0 70px;
+}
+
+.heder{
+  margin-bottom: 98px;
 }
 
 .hero__title-section {
@@ -22,13 +28,13 @@
   font-size: 48px;
   font-weight: bold;
   line-height: 1.1;
-  margin-bottom: 15px;
+  margin-bottom: 22px;
   text-transform: uppercase;
 }
 
 .hero__title-desc {
   font-family: "Alegreya Sans";
   font-size: 21px;
-  margin-bottom: 36px;
+  margin-bottom: 54px;
   padding-right: 33%;
 }
