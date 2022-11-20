@@ -1,21 +1,28 @@
 .hero {
-  background: url("../../img/Ellipse 5.png") left 78% center no-repeat;
   background-color: rgb(235, 231, 231);
   min-height: 650px;
   height: 100vh;
   color: #292929;
   padding: 24px 0 70px;
+  position: relative;
+}
+.hero:before {
+  position: absolute;
+  bottom: -30px;
+  left: 74%;
+  content: url("/img/Rectangle 14.png");
 }
 
-.heder {
+.header {
   margin-bottom: 98px;
 }
 
 .hero__title-section {
-  width: 46%;
+  width: 39%;
 }
 
 .hero__container {
+  background: url("../../img/Ellipse 5.png") right 20% center/45% no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,7 +49,7 @@
   font-family: "Alegreya Sans";
   font-size: 21px;
   margin-bottom: 54px;
-  padding-right: 33%;
+  padding-right: 22%;
 }
 
 .header {
@@ -218,5 +225,90 @@ img {
 }
 .btn--theme--red:hover {
   background: #CA1B36;
+}
+
+.section {
+  height: 100vh;
+  min-height: 650px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: rgb(102, 102, 102);
+}
+
+.section__title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(41, 41, 41);
+  text-transform: uppercase;
+}
+
+.headline__title {
+  margin-bottom: 18px;
+}
+
+.headline {
+  text-align: center;
+}
+
+.headline__subtitle {
+  padding: 0 24%;
+  margin-bottom: 62px;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 3%;
+}
+.benefits__item:first-child {
+  margin-left: 0;
+}
+.benefits__item:last-child {
+  margin-right: 0;
+}
+
+.benefit {
+  text-align: center;
+}
+
+.benefit__image-wrapper {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  position: relative;
+  background: rgb(242, 245, 244);
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.benefit__icon {
+  width: 68px;
+  height: 68px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.benefi__title {
+  margin-bottom: 7px;
 }
 /*# sourceMappingURL=main.css.map */

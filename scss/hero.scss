@@ -1,22 +1,29 @@
 .hero {
-  background: url("../../img/Ellipse\ 5.png") left 78% center no-repeat;
   background-color: $gray;
   min-height: 650px;
-  
   height: 100vh;
   color: $black;
   padding: 24px 0 70px;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    bottom: -30px;
+    left: 74%;
+    content: url("/img/Rectangle\ 14.png");
+  }
 }
 
-.heder{
+.header {
   margin-bottom: 98px;
 }
 
 .hero__title-section {
-  width: 46%;
+  width: 39%;
 }
 
 .hero__container {
+  background: url("../../img/Ellipse\ 5.png") right 20% center / 45%  no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,5 +43,5 @@
   font-family: "Alegreya Sans";
   font-size: 21px;
   margin-bottom: 54px;
-  padding-right: 33%;
+  padding-right: 22%;
 }
