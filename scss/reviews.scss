@@ -1,6 +1,23 @@
 .reviews__display {
     background: rgba(248, 250, 249, 1);
     padding: 42px 42px 42px;
+    margin-bottom: 32px;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+        content: "";
+        display: block;
+        width: 83px;
+        height: 83px;
+        background: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -65px;
+    }
 }
 
 .reviews__disolay-inner {
@@ -33,6 +50,7 @@
 .reviews__text {
     margin-bottom: 38px;
     font-size: 16px;
+    padding-right: 266px;
 }
 
 
@@ -40,4 +58,19 @@
     font-size: 18px;
     font-weight: bold;
     color: $black;
+}
+
+.reviews__switcher {
+    display: flex;
+    justify-content: center;
+}
+
+.section__titile {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: bold;
+    color :$black;
+    margin-bottom: 32px;
+    
 }

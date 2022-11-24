@@ -1,0 +1,9 @@
+.section__reviews {
+  position: relative;
+}
+.section__reviews:before {
+  content: url(../../img/Ellipse\ 7.png);
+  position: absolute;
+  bottom: -32px;
+  left: 213px;
+}
