@@ -6,6 +6,8 @@
   line-height: 1;
   text-decoration: none;
   width: 163px;
+  border: none;
+  font-family: "play";
 
   &--theme--red {
     background: $red;
@@ -13,8 +15,34 @@
     margin-bottom: 70px;
   }
 
-  &--theme--red:hover{
-    background: #CA1B36;
-
+  &--theme--red:hover {
+    background: #ca1b36;
   }
+
+  &--theme--order{
+    background: $red;
+    color: $white;
+  }
+
+    &--theme--order:hover{
+      color: $white;
+      background: rgba(202, 27, 54, 1);
+      
+    }
+
+    &--theme--transperent{
+      color: rgba(224, 31, 61, 1);
+      background-color: transparent;
+      text-transform: none;
+      
+      
+  
+    }
+    &--theme--transperent:hover{
+      color: $white;
+      background-color: transparent;
+      
+
+    }
+  
 }
