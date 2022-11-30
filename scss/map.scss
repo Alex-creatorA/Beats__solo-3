@@ -1,4 +1,8 @@
-.img__map{
-    display: flex;
-}
+.map__container {
+    position: relative;
 
+    &::before {
+        content: url("../../img/map.png");
+        width: 100%;
+    }
+}

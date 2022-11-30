@@ -641,9 +641,11 @@ img {
           transform: translate(-50%, -50%);
 }
 
-.img__map {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.map__container {
+  position: relative;
+}
+.map__container::before {
+  content: url("../../img/map.png");
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

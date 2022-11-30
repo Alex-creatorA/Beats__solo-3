@@ -1,0 +1,7 @@
+.map__container {
+  background: url("/img/map.png") center center no-repeat;
+}
+
+.img__map {
+  background-color: black;
+}
