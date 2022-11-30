@@ -1,8 +1,4 @@
-.map__container {
-    position: relative;
-
-    &::before {
-        content: url("../../img/map.png");
-        width: 100%;
-    }
+.img__map { 
+ background: url(../../img/map.png) top 10% center no-repeat;
+ background-size: 100%;
 }

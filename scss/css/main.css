@@ -495,7 +495,7 @@ img {
 }
 
 .order-section {
-  background-color: rgb(24, 24, 24);
+  background: url(../../img/background1.png) top 74% center no-repeat;
 }
 
 .form {
@@ -641,11 +641,8 @@ img {
           transform: translate(-50%, -50%);
 }
 
-.map__container {
-  position: relative;
-}
-.map__container::before {
-  content: url("../../img/map.png");
-  width: 100%;
+.img__map {
+  background: url(../../img/map.png) top 10% center no-repeat;
+  background-size: 100%;
 }
 /*# sourceMappingURL=main.css.map */
