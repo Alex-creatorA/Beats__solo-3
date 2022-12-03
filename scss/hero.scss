@@ -79,4 +79,8 @@
   @include tablets {
     padding: 0 24%;
   }
+
+  @include phone {
+    padding: 0 17%;
+  }
 }

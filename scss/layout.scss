@@ -5,11 +5,11 @@
 html {
   font-size: $baseFontSize;
 
-  @include tablets {
+  @include $tablets {
     font-size: $baseFontSize - 1px;
   }
 
-  @include phone {
+  @include $phone {
     font-size: $baseFontSize - 2px;
   }
 }
