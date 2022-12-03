@@ -1,47 +1,82 @@
 .hero {
   background-color: $gray;
-  min-height: 650px;
+  min-height: rem(650px);
   height: 100vh;
   color: $black;
-  padding: 24px 0 70px;
+  padding: rem(24px) 0 rem(70px);
   position: relative;
 
   &:before {
     position: absolute;
-    bottom: -30px;
+    bottom: rem(-30px);
     left: 74%;
     content: url("/img/Rectangle\ 14.png");
   }
+  
+
 }
 
 .header {
-  margin-bottom: 98px;
+  margin-bottom: rem(98px);
 }
 
 .hero__title-section {
   width: 39%;
+
+  @include tablets {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+      content: url(../../img/elipse\ mobile.png);
+      margin-bottom: 15%;
+    }
+  }
+}
+
+.hero__icons-section {
+  @include tablets {
+    display: none;
+  }
 }
 
 .hero__container {
-  background: url("../../img/Ellipse\ 5.png") right 20% center / 45%  no-repeat;
+  background: url("../../img/Ellipse\ 5.png") right 20% center / 45% no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  padding: 24px 0 70px;
+  padding: rem(24px) 0 rem(70px);
+
+  @include tablets {
+    background: none;
+  }
 }
 
 .hero__main-title {
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: bold;
   line-height: 1.1;
-  margin-bottom: 22px;
+  margin-bottom: rem(5px);
   text-transform: uppercase;
+
+  @include tablets {
+    padding: 0 9%;
+  }
 }
 
 .hero__title-desc {
   font-family: "Alegreya Sans";
-  font-size: 21px;
-  margin-bottom: 54px;
+  font-size: rem(21px);
+  margin-bottom: rem(20px);
   padding-right: 22%;
+
+  @include tablets {
+    padding: 0 24%;
+  }
 }

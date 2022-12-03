@@ -5,6 +5,12 @@ $containerWidth:1100px;
 $baseFontSize:16px;
 $black:#292929;
 
+//break point 
+$tablets: 768px;
+$phone: 480px;
+
+@import "media.scss";
+
 //z-indexes 
 $z-fixed-menu:100;
 
@@ -27,3 +33,5 @@ $z-fixed-menu:100;
 @import "radio.scss";
 @import "fixed-menu.scss";
 @import "map.scss";
+@import "humburger.scss";
+@import "footer.scss";

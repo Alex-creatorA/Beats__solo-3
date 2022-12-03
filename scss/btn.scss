@@ -1,18 +1,18 @@
 .btn {
   font-weight: bold;
-  padding: 18px 40px;
-  border-radius: 100px;
+  padding: rem(18px) rem(40px);
+  border-radius: rem(100px);
   text-transform: uppercase;
   line-height: 1;
   text-decoration: none;
-  width: 163px;
+  width: rem(163px);
   border: none;
   font-family: "play";
 
   &--theme--red {
     background: $red;
     color: $white;
-    margin-bottom: 70px;
+    margin-bottom: rem(70px);
   }
 
   &--theme--red:hover {

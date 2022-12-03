@@ -24,12 +24,12 @@
     &:before {
         content: url(../../img/Combined\ shape\ 2204.png);
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
     }
 }
 
 .benefit__desc {
-    padding: 10px;
+    padding: rem(10px);
 }

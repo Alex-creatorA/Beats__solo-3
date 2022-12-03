@@ -1,61 +1,88 @@
 .reviews__display {
     background: rgba(248, 250, 249, 1);
-    padding: 42px 42px 42px;
-    margin-bottom: 32px;
+    padding: rem(42px) rem(42px) rem(42px);
+    margin-bottom: rem(32px);
     overflow: hidden;
     position: relative;
 
     &:before {
         content: "";
         display: block;
-        width: 83px;
-        height: 83px;
+        width: rem(83px);
+        height: rem(83px);
         background: rgba(255, 255, 255, 1);
         border-radius: 50%;
         overflow: hidden;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        top: -65px;
+        top: rem(-65px);
     }
 }
 
 .reviews__disolay-inner {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .reviews__avatar {
-    width: 253px;
-    height: 264px;
+    width: rem(253px);
+    height: rem(264px);
+
+    @include tablets {
+        width: rem(130px);
+        height: rem(130px);
+        margin-bottom: rem(32px);
+    
+    }
+
 }
 
 .reviews__avatar-img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+
 }
 
 .reviews__content {
     flex: 1;
-    margin-left: 40px;
+    margin-left: rem(40px);
+
+    @include tablets {
+        margin-left: 0;
+    }
 }
 
 .reviews__title {
-    font-size: 24px;
+    font-size: rem(24px);
     font-weight: bold;
-    margin-bottom: 27px;
+    margin-bottom: rem(27px);
     color: $black;
+
+    @include tablets {
+        margin-bottom: rem(16px);
+    }
 }
 
 .reviews__text {
-    margin-bottom: 38px;
-    font-size: 16px;
-    padding-right: 266px;
+    margin-bottom: rem(38px);
+    font-size: rem(16px);
+    padding-right: rem(266px);
+    
+    @include tablets {
+padding: 0;
+    }
 }
 
 
 .reviews__author {
-    font-size: 18px;
+    font-size: rem(18px);
     font-weight: bold;
     color: $black;
 }
@@ -68,9 +95,9 @@
 .section__titile {
     display: flex;
     justify-content: center;
-    font-size: 48px;
+    font-size: rem(48px);
     font-weight: bold;
     color :$black;
-    margin-bottom: 32px;
+    margin-bottom: rem(32px);
     
 }

@@ -6,7 +6,11 @@
 }
 
 .fixed__menu__item {
-  margin-bottom: 7px;
+  margin-bottom: rem(7px);
+
+  @include tablets {
+    display: none;
+  }
 
   &-active {
     .fixed-menu__link {
@@ -18,10 +22,10 @@
 .fixed-menu__link {
 
   
-  width: 18px;
-  height: 19px;
+  width: rem(18px);
+  height: rem(19px);
   border-radius: 50%;
-  border: 2px solid transparent;
+  border: rem(2px) solid transparent;
   display: block;
   position: relative;
 
@@ -29,8 +33,8 @@
   &::before {
     content: "";
     display: block;
-    width: 6px;
-    height: 6px;
+    width: rem(6px);
+    height: rem(6px);
     border-radius: 50%;
     background: rgba(41, 41, 41, 1);
     position: absolute;
