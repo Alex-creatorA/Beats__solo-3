@@ -33,7 +33,10 @@
     text-align: center;
 
     &::before {
-      content: url(../../img/elipse\ mobile.png);
+      content: "";
+      width: rem(323px);
+      height: rem(323px);
+      background: url("../../img/elipse\ mobile.png") center center / contain no-repeat;
       margin-bottom: 15%;
     }
   }

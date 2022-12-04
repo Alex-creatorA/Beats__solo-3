@@ -1,5 +1,9 @@
 .benefits{
     display: flex;
+
+    @include phone {
+        flex-direction: column;
+            }
 }
 
 .benefits__item{
@@ -22,12 +26,21 @@
 
 
     &:before {
-        content: url(../../img/Combined\ shape\ 2204.png);
+        content: url("../../img/Combined\ shape\ 2204.png");
         position: absolute;
         top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include phone {
+            display: none  ;
+                }
     }
+    @include phone {
+        padding: 0;
+        margin-bottom: rem(24px);
+            }
+ 
 }
 
 .benefit__desc {

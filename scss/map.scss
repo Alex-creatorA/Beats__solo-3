@@ -1,8 +1,15 @@
 .img__map { 
- background: url(../../img/map.png) center center no-repeat;
- background-size: 100%;
- 
- @include tablets {
-    background: url(../../img/map__mobile.png);
- }
+ background: url(../../img/map.png) center center / contain no-repeat;
+ background-size: 100% 100%;
 }
+ 
+//  @include tablets {
+   
+//     background: url("../../img/map__mobile.png") ctnter center / contain no-repeat;
+//    background-size: 100% 100%;
+   
+    
+//  }
+
+
+
