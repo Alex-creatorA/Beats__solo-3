@@ -3,9 +3,24 @@
 }
 
 .features__item{
-    margin-right: rem(20px);
+    margin-right: rem(10px);
     
     &last-child {
         margin-right: 0;
     }
 }
+
+.social__icons-svg {
+    height: rem(30px);
+    width: rem(30px);
+    cursor: pointer;
+    fill:  #B3B3B3;
+    
+    
+    &:hover {
+        fill: rgba(0, 0, 0, 1);
+        
+    }
+    
+    }
+    
