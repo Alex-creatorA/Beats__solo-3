@@ -322,13 +322,6 @@ img {
   margin-right: 1.25rem;
 }
 
-.social__icons-svg {
-  height: 1.875rem;
-  width: 1.875rem;
-  cursor: pointer;
-  fill: #B3B3B3;
-}
-
 .btn {
   font-weight: bold;
   padding: 1.125rem 2.5rem;
