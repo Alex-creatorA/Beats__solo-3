@@ -1,26 +1,22 @@
-.features{
-    display: flex;
+.features {
+  display: flex;
 }
 
-.features__item{
-    margin-right: rem(10px);
-    
-    &last-child {
-        margin-right: 0;
-    }
+.features__item {
+  margin-right: rem(10px);
+
+  &last-child {
+    margin-right: 0;
+  }
 }
 
 .social__icons-svg {
-    height: rem(30px);
-    width: rem(30px);
-    cursor: pointer;
-    fill:  #B3B3B3;
-    
-    
-    &:hover {
-        fill: rgba(0, 0, 0, 1);
-        
-    }
-    
-    }
-    
+  
+
+  cursor: pointer;
+  fill: #b3b3b3;
+
+  &:hover {
+    fill: rgba(0, 0, 0, 1);
+  }
+}

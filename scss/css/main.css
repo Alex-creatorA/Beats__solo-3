@@ -297,10 +297,8 @@ img {
 }
 
 .social__icons-svg {
-  height: 1.875rem;
-  width: 1.875rem;
   cursor: pointer;
-  fill: #B3B3B3;
+  fill: #b3b3b3;
 }
 .social__icons-svg:hover {
   fill: rgb(0, 0, 0);
@@ -974,11 +972,6 @@ img {
 
 .contacts__phone {
   text-decoration: none;
-}
-
-.social__img {
-  width: 1.875rem;
-  height: 1.875rem;
 }
 
 @media screen and (max-width: 768px) {
