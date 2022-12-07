@@ -1,7 +1,7 @@
 .benefits{
     display: flex;
 
-    @include phone {
+    @include tablets {
         flex-direction: column;
             }
 }
@@ -11,7 +11,7 @@
     padding: 0 3%;
     position: relative;
 
-    &:first-child{
+    &:first-child{  
         padding-left: 0;
     }
 
@@ -32,11 +32,11 @@
         right: 0;
         transform: translateX(50%);
 
-        @include phone {
+        @include tablets {
             display: none  ;
                 }
     }
-    @include phone {
+    @include tablets {
         padding: 0;
         margin-bottom: rem(24px);
             }
