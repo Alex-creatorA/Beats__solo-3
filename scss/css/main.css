@@ -981,4 +981,14 @@ img {
     color: rgb(224, 31, 61);
   }
 }
+
+.social__icons-svg {
+  cursor: pointer;
+  fill: #b3b3b3;
+  height: 32px;
+  width: 32px;
+}
+.social__icons-svg:hover {
+  fill: rgb(0, 0, 0);
+}
 /*# sourceMappingURL=main.css.map */
